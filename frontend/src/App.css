@@ -1,0 +1,57 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  gap: 10px;
+}
+
+.item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.item:hover {
+  box-shadow: rgba(235, 235, 236, 0.659) 0px 10px 100px -20px,
+    rgba(233, 230, 230, 0.444) 0px 10px 60px -30px,
+    rgba(222, 226, 230, 0.585) 0px -2px 6px 0px inset;
+}
+
+.item a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+}
+
+input {
+  height: 20px;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+button {
+  width: 420px;
+  height: 30px;
+}
